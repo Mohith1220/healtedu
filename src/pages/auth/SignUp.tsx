@@ -202,19 +202,7 @@ const SignUp: React.FC = () => {
                     {t('auth.signup.role.teacher')}
                   </button>
                 </div>
-                <div>
-                  <button
-                    type="button"
-                    onClick={() => setRole('parent')}
-                    className={`w-full py-2 px-3 border ${
-                      role === 'parent' 
-                        ? 'bg-indigo-50 border-indigo-500 text-indigo-700' 
-                        : 'border-gray-300 text-gray-700'
-                    } rounded-md shadow-sm text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
-                  >
-                    {t('auth.signup.role.parent')}
-                  </button>
-                </div>
+              
               </div>
             </div>
 
